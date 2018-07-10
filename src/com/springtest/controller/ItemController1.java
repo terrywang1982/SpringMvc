@@ -23,7 +23,7 @@ public class ItemController1 implements Controller {
         modelAndView.addObject("itemsList",lists);
         //指定视图
         modelAndView.setViewName("/WEB-INF/jsp/items/info.jsp");
-
+      //返回视图
         return modelAndView;
     }
 
